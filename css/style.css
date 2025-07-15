@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 65.5;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 3.5rem;
+}
+
+.hamburguer-menu {
+    font-size: 2.3rem;
+    margin-left: -7rem;
+    margin-right: 4rem;
+    display: flex;
+
+}
+
+.container img {
+    margin-left: -20rem;
+}
+
+input[type=search] {
+    width: 21.75rem;
+    height: 2.5rem;
+    border: 1px solid #CCC;
+    background: #FFF;
+}
+
+input[type=button] {
+    width: 3.5rem;
+    height: 2.5rem;
+    border: 1px solid #CCC;
+    background: #F8F8F8;
+    margin-left: -.3rem;
+    position: relative;
+}
+
+.icon-inside-input {
+     position: absolute;
+     left: 10px;
+     top: 50%;
+     transform: translateY(-50%);
+     color: #aaa;
+   }
+
+.studio {
+    position: relative;
+    border: 1px solid red;
+    width: 130px;
+    height: 36px;
+}
+
+.studio ul {
+    display: inline-flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 24px;
+}
+
+ul li {
+    font-size: 24px;
+}
+
+ul li img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: 1%;
+}
