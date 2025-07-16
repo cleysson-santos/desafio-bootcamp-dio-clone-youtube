@@ -12,6 +12,8 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+/* NAVBAR / HEADER */
+
 .navbar {
   width: 100%;
   box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
@@ -26,14 +28,16 @@ body {
 
 .hamburguer-menu {
     font-size: 2.3rem;
-    margin-left: -7rem;
-    margin-right: 4rem;
     display: flex;
-
+    margin-left: -20px;
 }
 
-.container img {
-    margin-left: -20rem;
+.hamburguer-menu img {
+    padding: 0 5px 0 30px; 
+}
+
+.input-container {
+    display: flex;
 }
 
 input[type=search] {
@@ -43,13 +47,16 @@ input[type=search] {
     background: #FFF;
 }
 
-input[type=button] {
-    width: 3.5rem;
-    height: 2.5rem;
+input[type=search]:focus {
+    outline: 1px solid #1c62b9;
+}
+
+.lupa {
     border: 1px solid #CCC;
     background: #F8F8F8;
-    margin-left: -.3rem;
     position: relative;
+    padding: 2px 10px 0 10px;
+    margin-left: -.3px;
 }
 
 .icon-inside-input {
@@ -62,9 +69,9 @@ input[type=button] {
 
 .studio {
     position: relative;
-    border: 1px solid red;
     width: 130px;
     height: 36px;
+    display: flex;
 }
 
 .studio ul {
