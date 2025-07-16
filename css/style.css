@@ -29,7 +29,24 @@ body {
 .hamburguer-menu {
     font-size: 2.3rem;
     display: flex;
-    margin-left: -20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hamburguer-btn {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.hamburguer-btn:hover {
+    background-color: rgba(197, 194, 194, 0.3);
+    border-radius: 50%;
+    padding: 5px;
+    transition: .3s;
+}
+
+.hamburguer-menu a {
+    display: flex;
 }
 
 .hamburguer-menu img {
@@ -81,6 +98,30 @@ input[type=search]:focus {
     gap: 24px;
 }
 
+.camera {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.camera:hover {
+    background-color: rgba(197, 194, 194, 0.3);
+    border-radius: 40%;
+    transition: .3s;
+    padding: 5px;
+}
+
+.sino {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.sino:hover {
+    background-color: rgba(197, 194, 194, 0.3);
+    border-radius: 45%;
+    transition: .3s;
+    padding: 5px;
+}
+
 ul li {
     font-size: 24px;
 }
@@ -90,6 +131,6 @@ ul li img {
     height: 34px;
     border-radius: 50%;
     position: absolute;
-    right: 0;
+    right: -15%;
     top: 1%;
 }
