@@ -134,3 +134,56 @@ ul li img {
     right: -15%;
     top: 1%;
 }
+
+/* CONTEÚDO PRINCIPAL */
+
+.main-content {
+    margin: 20px 0 194px 75px;
+}
+
+.interacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid red;
+    padding: 5px;
+}
+
+.canal {
+    display: flex;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.dados-canal {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nome-canal {
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.qtde-inscritos {
+    color: #515151;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.btn {
+    width: 9.9rem;
+    height: 2.5rem;
+    border-radius: 2px;
+    background: #C00;
+    color: #FFF;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+}
