@@ -221,6 +221,7 @@ a{
 .sideBar {
     display: inline-block;
     flex-direction: column;
+    float: right;
     margin: 5px 20px 20px 20px;
     width: 17%;
     border: 1px solid red;
