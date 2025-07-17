@@ -143,13 +143,13 @@ ul li img {
 
 .interacao {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     border: 1px solid red;
     padding: 5px;
 }
 
 .canal {
+    align-items: center;
+    justify-content: space-evenly;
     display: flex;
 }
 
@@ -186,4 +186,18 @@ img {
     font-weight: 600;
     text-transform: uppercase;
     border: none;
+}
+
+.botoes-interacao{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-interacao {
+    border: 0;
+}
+
+.label {
+    font-size: 14px;
+    font-weight: 600;
 }
