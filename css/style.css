@@ -139,22 +139,25 @@ ul li img {
 
 .main-content {
     margin: 20px 0 194px 75px;
+    width: 954px;
 }
 
 .interacao {
     display: flex;
-    border: 1px solid red;
+    justify-content: space-between;
     padding: 5px;
 }
 
 .canal {
     align-items: center;
-    justify-content: space-evenly;
     display: flex;
+    gap: 5px;
 }
 
-img {
+.canal img {
     border-radius: 50%;
+    padding: 0 2px 0 0;
+    cursor: pointer;
 }
 
 .dados-canal {
@@ -162,6 +165,11 @@ img {
     align-items: flex-start;
     flex-direction: column;
     justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
 }
 
 .nome-canal {
@@ -186,18 +194,35 @@ img {
     font-weight: 600;
     text-transform: uppercase;
     border: none;
+    margin-left: 3rem;
+    cursor: pointer;
 }
 
 .botoes-interacao{
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .btn-interacao {
     border: 0;
+    background-color: inherit;
+    cursor: pointer;
 }
 
 .label {
     font-size: 14px;
     font-weight: 600;
+}
+
+/* ASIDE */
+
+.sideBar {
+    display: inline-block;
+    flex-direction: column;
+    margin: 5px 20px 20px 20px;
+    width: 17%;
+    border: 1px solid red;
+    box-sizing: border-box;
 }
