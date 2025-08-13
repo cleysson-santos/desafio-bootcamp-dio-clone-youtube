@@ -142,6 +142,10 @@ ul li img {
     width: 954px;
 }
 
+.titulo-video {
+    padding: 5px 0 5px 0;
+}
+
 .interacao {
     display: flex;
     justify-content: space-between;
