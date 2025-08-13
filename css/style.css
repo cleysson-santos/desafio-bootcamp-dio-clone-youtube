@@ -140,6 +140,7 @@ ul li img {
 .main-content {
     margin: 20px 0 194px 75px;
     width: 954px;
+    position: relative;
 }
 
 .titulo-video {
@@ -226,8 +227,15 @@ a{
     display: inline-block;
     flex-direction: column;
     float: right;
+    position: absolute;
+    top: 11%;
+    right: 0%;
     margin: 5px 20px 20px 20px;
     width: 17%;
     border: 1px solid red;
     box-sizing: border-box;
+}
+
+.card {
+
 }
