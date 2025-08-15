@@ -221,6 +221,18 @@ a{
     font-weight: 600;
 }
 
+.visualizacao {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.descricao {
+    font-size: 14px;
+    font-weight: 400;
+    color: #515151;
+    max-width: 510px;
+}
+
 /* ASIDE */
 
 .sideBar {
