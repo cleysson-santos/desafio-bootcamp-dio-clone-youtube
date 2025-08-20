@@ -240,7 +240,6 @@ a{
 .sideBar {
     display: inline-block;
     flex-direction: column;
-    float: right;
     position: absolute;
     top: 11%;
     right: 0%;
